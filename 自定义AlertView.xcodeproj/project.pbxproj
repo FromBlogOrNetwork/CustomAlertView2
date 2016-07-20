@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86287AF61D3F3FF100C47887 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86287AF51D3F3FF100C47887 /* main.m */; };
+		86287AF91D3F3FF100C47887 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86287AF81D3F3FF100C47887 /* AppDelegate.m */; };
+		86287AFC1D3F3FF100C47887 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86287AFB1D3F3FF100C47887 /* ViewController.m */; };
+		86287AFF1D3F3FF100C47887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86287AFD1D3F3FF100C47887 /* Main.storyboard */; };
+		86287B011D3F3FF100C47887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86287B001D3F3FF100C47887 /* Assets.xcassets */; };
+		86287B041D3F3FF100C47887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86287B021D3F3FF100C47887 /* LaunchScreen.storyboard */; };
+		86287B0F1D3F3FF100C47887 /* ___AlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86287B0E1D3F3FF100C47887 /* ___AlertViewTests.m */; };
+		86287B1A1D3F3FF100C47887 /* ___AlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86287B191D3F3FF100C47887 /* ___AlertViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86287B0B1D3F3FF100C47887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86287AE91D3F3FF100C47887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86287AF01D3F3FF100C47887;
+			remoteInfo = "自定义AlertView";
+		};
+		86287B161D3F3FF100C47887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86287AE91D3F3FF100C47887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86287AF01D3F3FF100C47887;
+			remoteInfo = "自定义AlertView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86287AF11D3F3FF100C47887 /* 自定义AlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义AlertView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86287AF51D3F3FF100C47887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86287AF71D3F3FF100C47887 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86287AF81D3F3FF100C47887 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86287AFA1D3F3FF100C47887 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86287AFB1D3F3FF100C47887 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86287AFE1D3F3FF100C47887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86287B001D3F3FF100C47887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86287B031D3F3FF100C47887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86287B051D3F3FF100C47887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86287B0A1D3F3FF100C47887 /* 自定义AlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义AlertViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86287B0E1D3F3FF100C47887 /* ___AlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___AlertViewTests.m"; sourceTree = "<group>"; };
+		86287B101D3F3FF100C47887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86287B151D3F3FF100C47887 /* 自定义AlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义AlertViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86287B191D3F3FF100C47887 /* ___AlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___AlertViewUITests.m"; sourceTree = "<group>"; };
+		86287B1B1D3F3FF100C47887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86287AEE1D3F3FF100C47887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86287B071D3F3FF100C47887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86287B121D3F3FF100C47887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86287AE81D3F3FF100C47887 = {
+			isa = PBXGroup;
+			children = (
+				86287AF31D3F3FF100C47887 /* 自定义AlertView */,
+				86287B0D1D3F3FF100C47887 /* 自定义AlertViewTests */,
+				86287B181D3F3FF100C47887 /* 自定义AlertViewUITests */,
+				86287AF21D3F3FF100C47887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86287AF21D3F3FF100C47887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86287AF11D3F3FF100C47887 /* 自定义AlertView.app */,
+				86287B0A1D3F3FF100C47887 /* 自定义AlertViewTests.xctest */,
+				86287B151D3F3FF100C47887 /* 自定义AlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86287AF31D3F3FF100C47887 /* 自定义AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				86287AF71D3F3FF100C47887 /* AppDelegate.h */,
+				86287AF81D3F3FF100C47887 /* AppDelegate.m */,
+				86287AFA1D3F3FF100C47887 /* ViewController.h */,
+				86287AFB1D3F3FF100C47887 /* ViewController.m */,
+				86287AFD1D3F3FF100C47887 /* Main.storyboard */,
+				86287B001D3F3FF100C47887 /* Assets.xcassets */,
+				86287B021D3F3FF100C47887 /* LaunchScreen.storyboard */,
+				86287B051D3F3FF100C47887 /* Info.plist */,
+				86287AF41D3F3FF100C47887 /* Supporting Files */,
+			);
+			path = "自定义AlertView";
+			sourceTree = "<group>";
+		};
+		86287AF41D3F3FF100C47887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86287AF51D3F3FF100C47887 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86287B0D1D3F3FF100C47887 /* 自定义AlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				86287B0E1D3F3FF100C47887 /* ___AlertViewTests.m */,
+				86287B101D3F3FF100C47887 /* Info.plist */,
+			);
+			path = "自定义AlertViewTests";
+			sourceTree = "<group>";
+		};
+		86287B181D3F3FF100C47887 /* 自定义AlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86287B191D3F3FF100C47887 /* ___AlertViewUITests.m */,
+				86287B1B1D3F3FF100C47887 /* Info.plist */,
+			);
+			path = "自定义AlertViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86287AF01D3F3FF100C47887 /* 自定义AlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86287B1E1D3F3FF100C47887 /* Build configuration list for PBXNativeTarget "自定义AlertView" */;
+			buildPhases = (
+				86287AED1D3F3FF100C47887 /* Sources */,
+				86287AEE1D3F3FF100C47887 /* Frameworks */,
+				86287AEF1D3F3FF100C47887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义AlertView";
+			productName = "自定义AlertView";
+			productReference = 86287AF11D3F3FF100C47887 /* 自定义AlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86287B091D3F3FF100C47887 /* 自定义AlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86287B211D3F3FF100C47887 /* Build configuration list for PBXNativeTarget "自定义AlertViewTests" */;
+			buildPhases = (
+				86287B061D3F3FF100C47887 /* Sources */,
+				86287B071D3F3FF100C47887 /* Frameworks */,
+				86287B081D3F3FF100C47887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86287B0C1D3F3FF100C47887 /* PBXTargetDependency */,
+			);
+			name = "自定义AlertViewTests";
+			productName = "自定义AlertViewTests";
+			productReference = 86287B0A1D3F3FF100C47887 /* 自定义AlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86287B141D3F3FF100C47887 /* 自定义AlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86287B241D3F3FF100C47887 /* Build configuration list for PBXNativeTarget "自定义AlertViewUITests" */;
+			buildPhases = (
+				86287B111D3F3FF100C47887 /* Sources */,
+				86287B121D3F3FF100C47887 /* Frameworks */,
+				86287B131D3F3FF100C47887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86287B171D3F3FF100C47887 /* PBXTargetDependency */,
+			);
+			name = "自定义AlertViewUITests";
+			productName = "自定义AlertViewUITests";
+			productReference = 86287B151D3F3FF100C47887 /* 自定义AlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86287AE91D3F3FF100C47887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaxing;
+				TargetAttributes = {
+					86287AF01D3F3FF100C47887 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					86287B091D3F3FF100C47887 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 86287AF01D3F3FF100C47887;
+					};
+					86287B141D3F3FF100C47887 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 86287AF01D3F3FF100C47887;
+					};
+				};
+			};
+			buildConfigurationList = 86287AEC1D3F3FF100C47887 /* Build configuration list for PBXProject "自定义AlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86287AE81D3F3FF100C47887;
+			productRefGroup = 86287AF21D3F3FF100C47887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86287AF01D3F3FF100C47887 /* 自定义AlertView */,
+				86287B091D3F3FF100C47887 /* 自定义AlertViewTests */,
+				86287B141D3F3FF100C47887 /* 自定义AlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86287AEF1D3F3FF100C47887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86287B041D3F3FF100C47887 /* LaunchScreen.storyboard in Resources */,
+				86287B011D3F3FF100C47887 /* Assets.xcassets in Resources */,
+				86287AFF1D3F3FF100C47887 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86287B081D3F3FF100C47887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86287B131D3F3FF100C47887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86287AED1D3F3FF100C47887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86287AFC1D3F3FF100C47887 /* ViewController.m in Sources */,
+				86287AF91D3F3FF100C47887 /* AppDelegate.m in Sources */,
+				86287AF61D3F3FF100C47887 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86287B061D3F3FF100C47887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86287B0F1D3F3FF100C47887 /* ___AlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86287B111D3F3FF100C47887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86287B1A1D3F3FF100C47887 /* ___AlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86287B0C1D3F3FF100C47887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86287AF01D3F3FF100C47887 /* 自定义AlertView */;
+			targetProxy = 86287B0B1D3F3FF100C47887 /* PBXContainerItemProxy */;
+		};
+		86287B171D3F3FF100C47887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86287AF01D3F3FF100C47887 /* 自定义AlertView */;
+			targetProxy = 86287B161D3F3FF100C47887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86287AFD1D3F3FF100C47887 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86287AFE1D3F3FF100C47887 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86287B021D3F3FF100C47887 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86287B031D3F3FF100C47887 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86287B1C1D3F3FF100C47887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86287B1D1D3F3FF100C47887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86287B1F1D3F3FF100C47887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义AlertView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaxing.---AlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86287B201D3F3FF100C47887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义AlertView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaxing.---AlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86287B221D3F3FF100C47887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义AlertViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaxing.---AlertViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义AlertView.app/自定义AlertView";
+			};
+			name = Debug;
+		};
+		86287B231D3F3FF100C47887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义AlertViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaxing.---AlertViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义AlertView.app/自定义AlertView";
+			};
+			name = Release;
+		};
+		86287B251D3F3FF100C47887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义AlertViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaxing.---AlertViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义AlertView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		86287B261D3F3FF100C47887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义AlertViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaxing.---AlertViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义AlertView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86287AEC1D3F3FF100C47887 /* Build configuration list for PBXProject "自定义AlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86287B1C1D3F3FF100C47887 /* Debug */,
+				86287B1D1D3F3FF100C47887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86287B1E1D3F3FF100C47887 /* Build configuration list for PBXNativeTarget "自定义AlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86287B1F1D3F3FF100C47887 /* Debug */,
+				86287B201D3F3FF100C47887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86287B211D3F3FF100C47887 /* Build configuration list for PBXNativeTarget "自定义AlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86287B221D3F3FF100C47887 /* Debug */,
+				86287B231D3F3FF100C47887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86287B241D3F3FF100C47887 /* Build configuration list for PBXNativeTarget "自定义AlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86287B251D3F3FF100C47887 /* Debug */,
+				86287B261D3F3FF100C47887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86287AE91D3F3FF100C47887 /* Project object */;
+}
