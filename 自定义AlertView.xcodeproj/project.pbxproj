@@ -15,6 +15,7 @@
 		86287B041D3F3FF100C47887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86287B021D3F3FF100C47887 /* LaunchScreen.storyboard */; };
 		86287B0F1D3F3FF100C47887 /* ___AlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86287B0E1D3F3FF100C47887 /* ___AlertViewTests.m */; };
 		86287B1A1D3F3FF100C47887 /* ___AlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86287B191D3F3FF100C47887 /* ___AlertViewUITests.m */; };
+		86287B291D3F42E300C47887 /* XMUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86287B281D3F42E300C47887 /* XMUIAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		86287B151D3F3FF100C47887 /* 自定义AlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义AlertViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86287B191D3F3FF100C47887 /* ___AlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___AlertViewUITests.m"; sourceTree = "<group>"; };
 		86287B1B1D3F3FF100C47887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86287B271D3F42E300C47887 /* XMUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMUIAlertView.h; sourceTree = "<group>"; };
+		86287B281D3F42E300C47887 /* XMUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMUIAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				86287AF81D3F3FF100C47887 /* AppDelegate.m */,
 				86287AFA1D3F3FF100C47887 /* ViewController.h */,
 				86287AFB1D3F3FF100C47887 /* ViewController.m */,
+				86287B271D3F42E300C47887 /* XMUIAlertView.h */,
+				86287B281D3F42E300C47887 /* XMUIAlertView.m */,
 				86287AFD1D3F3FF100C47887 /* Main.storyboard */,
 				86287B001D3F3FF100C47887 /* Assets.xcassets */,
 				86287B021D3F3FF100C47887 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86287B291D3F42E300C47887 /* XMUIAlertView.m in Sources */,
 				86287AFC1D3F3FF100C47887 /* ViewController.m in Sources */,
 				86287AF91D3F3FF100C47887 /* AppDelegate.m in Sources */,
 				86287AF61D3F3FF100C47887 /* main.m in Sources */,
@@ -412,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "自定义AlertView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaxing.---AlertView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "自定义AlertView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaxing.---AlertView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +504,7 @@
 				86287B201D3F3FF100C47887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86287B211D3F3FF100C47887 /* Build configuration list for PBXNativeTarget "自定义AlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				86287B231D3F3FF100C47887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86287B241D3F3FF100C47887 /* Build configuration list for PBXNativeTarget "自定义AlertViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				86287B261D3F3FF100C47887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
